@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class School {
 
     private String schoolName;
@@ -13,7 +15,7 @@ public class School {
         int noOfPlayers = 0;
         List<Player> players;
 
-        for (Team team; teams) {
+        for (Team team: teams) {
             players = team.getPlayers();
             noOfPlayers += players.size();
         }
